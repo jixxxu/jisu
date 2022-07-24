@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/register1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/header"
+            android:gravity="center"
+            android:text="출차등록"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/gocarinform"
+            android:layout_width="70dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="328dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="출차추가"
+            android:textColor="#029AFF"
+            android:textSize="12dp"
+            android:background="@drawable/headercircle"
+
+            />
+
+        <TextView
+            android:id="@+id/rectangle2"
+            android:layout_width="350dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/headercircle"
+
+            />
+
+        <TextView
+            android:id="@+id/carstyle"
+            android:layout_width="55dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="95dp"
+            android:gravity="center"
+            android:text="차량종류 차량번호  번호판색"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/carstyle2"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="95dp"
+            android:gravity="center_vertical"
+            android:text="아반떼          11가 1111 흰색"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/bluecirclecircle"
+            android:gravity="center"
+            android:text="기본"
+            android:textColor="#029AFF"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="175dp"
+            android:background="@drawable/bluecircle"
+            android:gravity="center"
+            android:text="삭제"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="175dp"
+            android:background="@drawable/bluecircle"
+            android:gravity="center"
+            android:text="수정"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/rectangle3"
+            android:layout_width="350dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/headercircle"
+
+            />
+
+        <TextView
+            android:id="@+id/carstyle3"
+            android:layout_width="55dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="245dp"
+            android:gravity="center"
+            android:text="차량종류 차량번호  번호판색"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/carstyle4"
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="245dp"
+            android:gravity="center_vertical"
+            android:text="아반떼          11가 1111 흰색"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="325dp"
+            android:background="@drawable/bluecircle"
+            android:gravity="center"
+            android:text="삭제"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="325dp"
+            android:background="@drawable/bluecircle"
+            android:gravity="center"
+            android:text="수정"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/godeliverystatus"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="580dp"
+            android:background="@drawable/bluecircle"
+            android:text="다음"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            />
+        <LinearLayout
+            android:id="@+id/linear_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="335dp"
+            android:background="@drawable/border_linear4"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_map1"
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:drawableTop="@drawable/img_location_gray"
+                android:drawablePadding="-5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="지도"
+                android:textColor="#dfe2eb" />
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:drawableTop="@drawable/img_car_gray"
+                android:drawablePadding="-5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="등록"
+                android:textColor="#dfe2eb"/>
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:drawableTop="@drawable/img_addcricle_black"
+                android:drawablePadding="-5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="업무 신청"
+                android:textColor="#000000"/>
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:drawableTop="@drawable/img_location_gray"
+                android:drawablePadding="-5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="배송현황"
+                android:textColor="#dfe2eb"/>
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:drawableTop="@drawable/img_menu_gray"
+                android:drawablePadding="-5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="더보기"
+                android:textColor="#dfe2eb" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/map_bc"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/headerempty"
+        android:elevation="8dp" />
+
+
+    <TextView
+        android:id="@+id/top_map_detail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/header"
+        android:gravity="center"
+        android:text="길찾기"
+        android:textColor="@android:color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+
+
+
+    <View
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="535dp"
+        android:background="@drawable/pin_start"
+        android:elevation="8dp" />
+
+    <View
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/pin_end"
+        android:elevation="8dp" />
+
+    <View
+        android:layout_width="5dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/pin_middle"
+        android:elevation="8dp" />
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="535dp"
+        android:lineSpacingExtra="11sp"
+        android:text="출발"
+        android:textAppearance="@style/map_font"
+        />
+
+    <TextView
+        android:id="@+id/start_input"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="555dp"
+        android:lineSpacingExtra="11sp"
+        android:background="@drawable/none"
+        android:text="출발"
+        android:textColor="@color/black"
+        android:textAppearance="@style/map_font" />
+
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="590dp"
+        android:lineSpacingExtra="11sp"
+        android:text="도착"
+        android:textAppearance="@style/map_font" />
+
+    <TextView
+        android:id="@+id/end_input"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="610dp"
+        android:lineSpacingExtra="11sp"
+        android:textAppearance="@style/map_font" />
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="85dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="540dp"
+        android:lineSpacingExtra="11sp"
+        android:text="전화걸기"
+        android:background="@drawable/call_bc"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:textSize="10dp"
+        android:textColor="#029AFF"
+        android:textAppearance="@style/map_font" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="85dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="590dp"
+        android:lineSpacingExtra="11sp"
+        android:text="배송완료"
+        android:background="@drawable/call_bc"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:textSize="10dp"
+        android:textColor="#029AFF"
+        android:textAppearance="@style/map_font" />
+
+</FrameLayout>
+</FrameLayout>

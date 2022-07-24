@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/register1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/header"
+            android:text="등록"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            />
+
+        <Button
+            android:id="@+id/bacodecode"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/bacode"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="360dp"
+            />
+        <TextView
+            android:id="@+id/rectangle1"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/header"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:text="확정 업무"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="268dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bluecircle"
+            />
+        <TextView
+            android:layout_width="268dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center_vertical"
+            android:text="  ABCDE1234"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            />
+
+        <Button
+            android:id="@+id/registwork"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="318dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/bluecircle"
+            android:text="등록"
+            android:gravity="center"
+            android:textColor="#029AFF"
+            android:textSize="12dp"
+            />
+        <TextView
+            android:id="@+id/rectangle2"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="175dp"
+            android:background="@drawable/header"
+            />
+
+
+        <TextView
+            android:id="@+id/rectangle3"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="405dp"
+            android:background="@drawable/header"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="194dp"
+            android:layout_marginLeft="30dp"
+            android:text="스캔완료"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+        <Button
+            android:id="@+id/registcarbutton"
+            android:layout_width="82dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="318dp"
+            android:layout_marginTop="190dp"
+            android:background="@drawable/bluecircle"
+            android:text="출차등록"
+            android:gravity="center"
+            android:textColor="#029AFF"
+            android:textSize="12dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp"
+            android:layout_marginLeft="30dp"
+            android:text="미스캔"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+
+
+        <LinearLayout
+            android:id="@+id/linear_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="335dp"
+            android:background="@drawable/border_linear4"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_map1"
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/img_location_gray"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="지도"
+            android:textColor="#dfe2eb" />
+
+        <Button
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/img_car_gray"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="등록"
+            android:textColor="#dfe2eb"/>
+
+        <Button
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/img_addcricle_black"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="업무 신청"
+            android:textColor="#000000"/>
+
+        <Button
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/img_location_gray"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="배송현황"
+            android:textColor="#dfe2eb"/>
+
+        <Button
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/img_menu_gray"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="더보기"
+            android:textColor="#dfe2eb" />
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
